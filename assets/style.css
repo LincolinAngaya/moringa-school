@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  
+}
+
+  /*---navigation bar---*/
+.header{
+  min-height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+
+}
+
+.header .logo{
+  float: left;
+  margin: 16px;
+  margin-right: 35px;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.header .mor{
+  color:  #EC4067;
+}
+
+.navbar ul {
+  padding: 6px;
+  margin: 12px;
+  float: right;
+  margin-right: 10px;
+}
+
+.navbar ul li {
+  position: relative;
+  list-style: none;
+  display: inline-block;
+}
+
+.navbar ul li a {
+  position: relative;
+  list-style: none;
+  display: block;
+  color: silver;
+  text-decoration: none;
+  padding: 12px 10px;
+  line-height: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.hero-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #EC4067;
+  padding: 12px 34px;
+  position: relative;
+  cursor: pointer;
+  background:#EC4067;
+  /*--- end of navigation bar---*/
+  /*---container one--*/
+
+  /*---nend of container one---*/
+}
+
