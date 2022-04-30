@@ -149,6 +149,7 @@ html
     color: #EC4067;
     border: 1px solid #EC4067;
     padding: 12px 34px;
+    border-radius: 3.5px;
     position: relative;
     cursor: pointer; 
   }
