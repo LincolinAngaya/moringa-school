@@ -122,6 +122,10 @@ html
     font-size: 21px;
     color:#10221b;
   }
+  .link{
+    text-decoration: none;
+    color: #EC4067;
+  }
   .btn {
      display: inline-block;
     text-decoration: none;
@@ -173,3 +177,14 @@ html
     text-align: left;
   }
   /*--- end of mentors--*/
+  .footer {
+     background-color: silver;
+     margin: -1px auto;
+     width: 50%;
+     background-position: center;
+     background-size: cover;
+     text-align: center;
+     padding: 75px 0;   
+ }
+    
+  
