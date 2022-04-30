@@ -4,10 +4,26 @@
   font-family: 'Nunito', sans-serif;
   
 }
+html
+  h2{
+    font-size: 3 rem;
+    color: #EC4067;
+  }
+  h1{
+    font-size: 21px;
+    color: #c1c4c2;
+  }
+  p {
+    font-size: 19px;
+    color: #10221b;
+    margin: 10px 0 45px;
+    line-height: 2;
+  }
+
 
   /*---navigation bar---*/
 .header{
-  min-height: 60vh;
+  min-height: 20vh;
   width: 100%;
   background-position: center;
   background-size: cover;
@@ -62,6 +78,7 @@
   text-decoration: none;
   color: #fff;
   border: 1px solid #EC4067;
+  border-radius: 3.5px;
   padding: 12px 34px;
   position: relative;
   cursor: pointer;
@@ -70,6 +87,34 @@
 
 
   /*--- end of navigation bar---*/
+  /*--- first slide---*/
+  .page {
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    
+  }
+  
+  .page .image {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 42rem;
+    flex: 1 1 42rem;
+    padding-right: 5rem;
+    padding-bottom: 5rem;
+  }
+  
+  .page .image img {
+    width: 70%;
+  }
+  
+  .page .content {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 42rem;
+    flex: 1 1 42rem;
+  }
 
   .btn {
      display: inline-block;
@@ -79,4 +124,8 @@
     padding: 12px 34px;
     position: relative;
     cursor: pointer; 
+  }
+  /*--- end of slide---*/
+  .page h1{
+    color: black;
   }
