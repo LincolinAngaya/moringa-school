@@ -135,6 +135,10 @@ html
     font-size: 21px;
     color:#10221b;
   }
+  .page .content .titles h2{
+    font-size: 21px;
+    color:silver;
+  }
   .link{
     text-decoration: none;
     color: #EC4067;
