@@ -11,7 +11,7 @@ html
   }
   h1{
     font-size: 21px;
-    color: #c1c4c2;
+    color: silver;
   }
   p {
     font-size: 19px;
@@ -95,6 +95,9 @@ html
     display: flex;
     align-items: center;
     gap: 1rem;
+    float: left;
+    margin: 36px;
+   margin-right: 35px;
     
   }
   
@@ -115,7 +118,10 @@ html
     -ms-flex: 1 1 42rem;
     flex: 1 1 42rem;
   }
-
+  .page .content .titles{
+    font-size: 21px;
+    color:#10221b;
+  }
   .btn {
      display: inline-block;
     text-decoration: none;
@@ -125,7 +131,45 @@ html
     position: relative;
     cursor: pointer; 
   }
-  /*--- end of slide---*/
+  
   .page h1{
     color: black;
   }
+
+/*--- end of slide---*/
+/*--- start of mentors---*/
+
+  .mentor .box-container {
+    display: grid;
+    -ms-grid-columns: (minmax(20em, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 1.0em;
+  
+  }
+  
+  .mentor .box-container .box {
+    text-align: left;
+    padding: 0rem;
+  }
+  
+  .mentor .box-container .box img {
+    height: 15 rem;
+    width: 15rem;
+   
+    margin-bottom: 1rem;
+  }
+  
+  .mentor .box-container .box h2{
+    font-size: 14px;
+   color: silver;
+  }
+  .mentor.box-container h3 {
+    color: #EC4067;
+  }
+  
+  .mentor.box-container .box p {
+    color: #10221b;
+    font-size: 14px;
+    text-align: left;
+  }
+  /*--- end of mentors--*/
