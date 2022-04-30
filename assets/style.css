@@ -17,7 +17,7 @@ html
     font-size: 19px;
     color: #10221b;
     margin: 10px 0 45px;
-    line-height: 2;
+    line-height: 1.5;
   }
 
 
@@ -143,6 +143,7 @@ html
     text-decoration: none;
     color: #EC4067;
   }
+ 
   .btn {
      display: inline-block;
     text-decoration: none;
