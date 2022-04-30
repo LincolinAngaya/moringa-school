@@ -7,7 +7,7 @@
 
   /*---navigation bar---*/
 .header{
-  min-height: 100vh;
+  min-height: 60vh;
   width: 100%;
   background-position: center;
   background-size: cover;
@@ -57,7 +57,6 @@
   font-weight: bold;
 }
 
-
 .hero-btn {
   display: inline-block;
   text-decoration: none;
@@ -67,9 +66,17 @@
   position: relative;
   cursor: pointer;
   background:#EC4067;
-  /*--- end of navigation bar---*/
-  /*---container one--*/
-
-  /*---nend of container one---*/
 }
 
+
+  /*--- end of navigation bar---*/
+
+  .btn {
+     display: inline-block;
+    text-decoration: none;
+    color: #EC4067;
+    border: 1px solid #EC4067;
+    padding: 12px 34px;
+    position: relative;
+    cursor: pointer; 
+  }
