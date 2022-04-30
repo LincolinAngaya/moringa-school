@@ -84,7 +84,20 @@ html
   cursor: pointer;
   background:#EC4067;
 }
+ .heading .story {
+  text-align: left;
+  margin-bottom: 2.5rem;
+  font-size: 2rem;
+  background-color: silver;
+}
+ .heading .highlight {
+  font-size: 2rem;
 
+}
+.heading p{
+  font-size: 2rem;
+
+}
 
   /*--- end of navigation bar---*/
   /*--- first slide---*/
@@ -135,6 +148,7 @@ html
     position: relative;
     cursor: pointer; 
   }
+
   
   .page h1{
     color: black;
@@ -176,8 +190,49 @@ html
     font-size: 14px;
     text-align: left;
   }
+  .mentor .heading .story {
+    text-align: left;
+    margin-bottom: 2.5rem;
+    font-size: 2rem;
+    background-color: silver;
+  }
+  .mentor .heading .highlight {
+    font-size: 2rem;
+  
+  }
+  .mentor .heading p{
+    font-size: 2rem;
+  
+  }
+  .mentor .heading .story {
+    text-align: left;
+    margin-bottom: 2.5rem;
+    font-size: 2rem;
+    background-color: silver;
+  }
+  .mentor .heading .highlight {
+    font-size: 2rem;
+  
+  }
+  .mentor .heading p{
+    font-size: 2rem;
+  
+  }
   /*--- end of mentors--*/
-
+  .project .heading .story {
+    text-align: left;
+    margin-bottom: 2.5rem;
+    font-size: 2rem;
+    background-color: silver;
+  }
+  .project .heading .highlight {
+    font-size: 2rem;
+  
+  }
+  .project.heading p{
+    font-size: 2rem;
+  
+  }
 
 
 
