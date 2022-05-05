@@ -7,5 +7,7 @@
 # it has various links where  new students or visitors can browse to enroll,see album and explore.
 # the website has also technical mentor page with their various links and the deatials incase you want to know more about them
 # for set-up you can go to my github pages their is an active live link
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
 # the project has a copyroght, illegal copying of thhis project is against the law.
 
