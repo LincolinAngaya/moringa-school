@@ -99,13 +99,47 @@ a{
 }
 #head-1 .head .image img{
   height: 600px;
-  width: 600px;
+  width:  600px;
   align-items:left;
   
 }
+/*---title--*/
+.heading{
+  display:flex;
+}
+.heading h5{
+ font-size: 34px;
+ padding: 5px;
+ font-weight: lighter;
+ 
+}
+.heading h5 .story{
+  background-color: silver;
 
-
-
+ }
+ /*----orientation--*/
+ #head-2 .head{
+  display: flex;
+  justify-content: space-between;
+}
+#head-2 .head .content{
+  width: 60%;
+ padding-left: 70px;
+ margin-top: 120px;
+ 
+}
+#head-2 .head .image{
+ width: 40%;
+ padding-left: 30px;
+ margin-top: 50px;
+ 
+}
+#head-2 .head .image img{
+ height: 400px;
+ width:  600px;
+ align-items:left;
+ 
+}
 
 
 
