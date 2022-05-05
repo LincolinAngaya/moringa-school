@@ -5,6 +5,26 @@
   
 }
 
+html
+  h2{
+    font-size: 39px;
+    color: #EC4067;
+    font-weight: lighter;
+  }
+  h1{
+    font-size: 21px;
+    color:black;
+  }
+  p {
+    font-size: 19px;
+    color: #10221b;
+    margin: 10px 0 45px;
+    line-height: 1.5;
+  }
+  h3{
+    color: #EC4067;
+  }
+
 nav{
   margin:15px;
   display: flex;
@@ -41,10 +61,48 @@ a{
     cursor: pointer;
     background:#EC4067;
   }
+  /*--header section--*/
+  .header{
+    margin:15px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #EC4067;
+    position: static;
+  }
 
+  .btn {
+    display: inline-block;
+   text-decoration: none;
+   color: #EC4067;
+   border: 1px solid #EC4067;
+   padding: 12px 34px;
+   border-radius: 3.5px;
+   position: relative;
+   cursor: pointer; 
+ }
 
-
-
+ #head-1 .head{
+   display: flex;
+   justify-content: space-between;
+ }
+ #head-1 .head .content{
+   width: 60%;
+  padding-left: 70px;
+  margin-top: 120px;
+  
+}
+#head-1 .head .image{
+  width: 40%;
+  padding-right: 30px;
+  margin-top: 50px;
+  
+}
+#head-1 .head .image img{
+  height: 600px;
+  width: 600px;
+  align-items:left;
+  
+}
 
 
 
@@ -83,24 +141,6 @@ a{
 
 /*----
 
-html
-  h2{
-    font-size: 3 rem;
-    color: #EC4067;
-  }
-  h1{
-    font-size: 21px;
-    color: silver;
-  }
-  p {
-    font-size: 19px;
-    color: #10221b;
-    margin: 10px 0 45px;
-    line-height: 1.5;
-  }
-  h3{
-    color: #EC4067;
-  }
 
 
   
@@ -214,17 +254,7 @@ html
     color: #EC4067;
   }
  
-  .btn {
-     display: inline-block;
-    text-decoration: none;
-    color: #EC4067;
-    border: 1px solid #EC4067;
-    padding: 12px 34px;
-    border-radius: 3.5px;
-    position: relative;
-    cursor: pointer; 
-  }
-
+ 
   
   .page h1{
     color: black;
