@@ -164,6 +164,31 @@ a{
  align-items:left;
  
 }
+/*--technical mentors--*/
+#mentor .box-container {
+  display: flex;
+  padding-left: 30px;
+  margin-top: 30px;
+ 
+  justify-content: space-between;
+}
+#mentor .box-container .box .mentor-1 h2{
+
+  align-items: center;
+  color:gray;
+  font-size: 24px;
+  
+}
+#mentor .box-container .box .mentor-1 p{
+  font-size: 10px;
+  
+}
+#mentor .box-container .box .mentor-1 img{
+
+  height: 200px;
+  width: 200px;
+  
+}
 /*--head-3--*/
 .header{
   margin:15px;
@@ -172,8 +197,6 @@ a{
   background-color: #EC4067;
   position: static;
 }
-
-
 
 #head-3 .head{
  display: flex;
