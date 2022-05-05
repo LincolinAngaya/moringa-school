@@ -4,6 +4,85 @@
   font-family: 'Nunito', sans-serif;
   
 }
+
+nav{
+  margin:15px;
+  display: flex;
+  justify-content: space-between;
+}
+nav ul li{ 
+  font-weight: 700;
+  font-size: 25px;
+  margin:15px;
+  display: flex;
+  display: inline-block;
+  
+}
+nav .logo {
+ font-size: 40px;
+ font-weight: 700;
+}
+nav .logo  .moringa{
+  color: #EC4067;
+ }
+
+a{
+  text-decoration: none;
+  color: silver;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #EC4067;
+    border-radius: 3.5px;
+    padding: 12px 34px;
+    position: relative;
+    cursor: pointer;
+    background:#EC4067;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----
+
 html
   h2{
     font-size: 3 rem;
@@ -24,7 +103,7 @@ html
   }
 
 
-  /*---navigation bar---*/
+  
 .header{
   min-height: 20vh;
   width: 100%;
@@ -76,17 +155,7 @@ html
   font-weight: bold;
 }
 
-.hero-btn {
-  display: inline-block;
-  text-decoration: none;
-  color: #fff;
-  border: 1px solid #EC4067;
-  border-radius: 3.5px;
-  padding: 12px 34px;
-  position: relative;
-  cursor: pointer;
-  background:#EC4067;
-}
+
  .heading .story {
   text-align: left;
   margin-bottom: 2.5rem;
@@ -102,8 +171,6 @@ html
 
 }
 
-  /*--- end of navigation bar---*/
-  /*--- first slide---*/
   .page {
 
     display: -webkit-box;
@@ -163,9 +230,7 @@ html
     color: black;
   }
 
-/*--- end of slide---*/
-/*--- start of mentors---*/
-
+/
   .mentor .box-container {
     display: grid;
     -ms-grid-columns: (minmax(20em, 1fr));
@@ -228,7 +293,7 @@ html
     font-size: 2rem;
   
   }
-  /*--- end of mentors--*/
+
   .project .heading .story {
     text-align: left;
     margin-bottom: 2.5rem;
@@ -244,9 +309,7 @@ html
   
   }
 
-
-
-
+--*/
 
 
   
