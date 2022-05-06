@@ -19,5 +19,5 @@ Please make sure to update tests as appropriate.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
-## the project has a copyroght, illegal copying of thhis project is against the law.
+ the project has a copyroght, illegal copying of thhis project is against the law.
 
