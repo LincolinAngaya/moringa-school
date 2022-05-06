@@ -4,14 +4,16 @@
   font-family: 'Nunito', sans-serif;
   
 }
+
 html
   h2{
-    font-size: 3 rem;
+    font-size: 39px;
     color: #EC4067;
+    font-weight: lighter;
   }
   h1{
     font-size: 21px;
-    color: silver;
+    color:black;
   }
   p {
     font-size: 19px;
@@ -23,226 +25,222 @@ html
     color: #EC4067;
   }
 
-
-  /*---navigation bar---*/
-.header{
-  min-height: 20vh;
-  width: 100%;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  box-sizing: border-box;
-  outline: none;
-  border: none;
-  text-decoration: none;
-
+nav{
+  margin:15px;
+  display: flex;
+  justify-content: space-between;
 }
-
-.header .logo{
-  float: left;
-  margin: 16px;
-  margin-right: 35px;
-  font-size: 36px;
+nav ul li{ 
   font-weight: 700;
-  letter-spacing: 2px;
-}
-
-.header .mor{
-  color:  #EC4067;
-}
-
-.navbar ul {
-  padding: 6px;
-  margin: 12px;
-  float: right;
-  margin-right: 10px;
-}
-
-.navbar ul li {
-  position: relative;
-  list-style: none;
+  font-size: 25px;
+  margin:15px;
+  display: flex;
   display: inline-block;
+  
 }
+nav .logo {
+ font-size: 40px;
+ font-weight: 700;
+}
+nav .logo  .moringa{
+  color: #EC4067;
+ }
 
-.navbar ul li a {
-  position: relative;
-  list-style: none;
-  display: block;
+a{
+  text-decoration: none;
   color: silver;
-  text-decoration: none;
-  padding: 12px 10px;
-  line-height: 15px;
-  font-size: 20px;
-  font-weight: bold;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #EC4067;
+    border-radius: 3.5px;
+    padding: 12px 34px;
+    position: relative;
+    cursor: pointer;
+    background:#EC4067;
+  }
+  /*--header section--*/
+  .header{
+    margin:15px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #EC4067;
+    position: static;
+  }
+
+  .btn {
+    display: inline-block;
+   text-decoration: none;
+   color: #EC4067;
+   border: 1px solid #EC4067;
+   padding: 12px 34px;
+   border-radius: 3.5px;
+   position: relative;
+   cursor: pointer; 
+ }
+
+ #head-1 .head{
+   display: flex;
+   justify-content: space-between;
+ }
+ #head-1 .head .content{
+   width: 60%;
+  padding-left: 70px;
+  margin-top: 120px;
+  
+}
+#head-1 .head .image{
+  width: 40%;
+  padding-right: 30px;
+  margin-top: 50px;
+  
+}
+#head-1 .head .image img{
+  height: 600px;
+  width:  600px;
+  align-items:left;
+  
+}
+/*---title--*/
+.heading{
+  display:flex;
+  
+}
+.heading h5{
+ font-size: 34px;
+ padding: 5px;
+ font-weight: lighter;
+ 
+}
+.heading h5 .story{
+  background-color: silver;
+
+ }
+ /*----orientation--*/
+ #head-2 .head{
+  display: flex;
+  justify-content: space-between;
+}
+#head-2 .head .content{
+  width: 60%;
+ padding-left: 70px;
+ margin-top: 120px;
+ 
+}
+#head-2 .head .image{
+ width: 40%;
+ padding-left: 30px;
+ margin-top: 50px;
+ 
+}
+#head-2 .head .image img{
+ height: 400px;
+ width:  600px;
+ align-items:left;
+ 
+}
+/*----board meeting--*/
+#head-3 .head{
+  display: flex;
+  justify-content: space-between;
+}
+#head-3 .head .content{
+  width: 60%;
+ padding-left: 70px;
+ margin-top: 120px;
+ 
+}
+#head-3 .head .image{
+ width: 40%;
+ padding-left: 30px;
+ margin-top: 50px;
+ 
+}
+#head-3 .head .image img{
+ height: 400px;
+ width:  600px;
+ align-items:left;
+ 
+}
+/*--technical mentors--*/
+#mentor .box-container {
+  display: flex;
+  padding-left: 30px;
+  margin-top: 30px;
+ 
+  justify-content: space-between;
+}
+#mentor .box-container .box .mentor-1 h2{
+
+  align-items: center;
+  color:gray;
+  font-size: 24px;
+  
+}
+#mentor .box-container .box .mentor-1 p{
+  font-size: 10px;
+  
+}
+#mentor .box-container .box .mentor-1 img{
+
+  height: 200px;
+  width: 200px;
+  
+}
+/*--head-3--*/
+.header{
+  margin:15px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #EC4067;
+  position: static;
 }
 
-.hero-btn {
-  display: inline-block;
-  text-decoration: none;
-  color: #fff;
-  border: 1px solid #EC4067;
-  border-radius: 3.5px;
-  padding: 12px 34px;
-  position: relative;
-  cursor: pointer;
-  background:#EC4067;
+#head-3 .head{
+ display: flex;
+ justify-content: space-between;
 }
- .heading .story {
-  text-align: left;
-  margin-bottom: 2.5rem;
-  font-size: 2rem;
+#head-3 .head .content{
+ width: 60%;
+padding-left: 70px;
+margin-top: 120px;
+
+}
+#head-3 .head .image{
+width: 40%;
+padding-right: 60px;
+margin-top: 50px;
+align-items:left;
+
+}
+#head-3 .head .image img{
+height: 400px;
+width:  600px;
+
+}
+
+.link{
+  text-decoration: none;
+  color: #EC4067;
+}
+/*-----FOOTRER--*/
+.footer{
+  align-items: center;
+  padding-left: 70px;
+  height: 20vh;
+  width: 100%;
   background-color: silver;
 }
- .heading .highlight {
-  font-size: 2rem;
-
-}
-.heading p{
-  font-size: 2rem;
-
+.footer p{
+  text-align: center;
+  padding: 60px;
+  
 }
 
-  /*--- end of navigation bar---*/
-  /*--- first slide---*/
-  .page {
 
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    float: left;
-    margin: 36px;
-   margin-right: 35px;
-    
-  }
-  
-  .page .image {
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 42rem;
-    flex: 1 1 42rem;
-    padding-right: 5rem;
-    padding-bottom: 5rem;
-  }
-  
-  .page .image img {
-    width: 100%;
-  }
-  
-  .page .content {
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 42rem;
-    flex: 1 1 42rem;
-  }
-  .page .content .titles{
-    font-size: 21px;
-    color:#10221b;
-  }
-  .page .content .titles h2{
-    font-size: 21px;
-    color:silver;
-  }
-  .link{
-    text-decoration: none;
-    color: #EC4067;
-  }
- 
-  .btn {
-     display: inline-block;
-    text-decoration: none;
-    color: #EC4067;
-    border: 1px solid #EC4067;
-    padding: 12px 34px;
-    border-radius: 3.5px;
-    position: relative;
-    cursor: pointer; 
-  }
 
-  
-  .page h1{
-    color: black;
-  }
-
-/*--- end of slide---*/
-/*--- start of mentors---*/
-
-  .mentor .box-container {
-    display: grid;
-    -ms-grid-columns: (minmax(20em, 1fr));
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-    gap: 1.0em;
-  
-  }
-  
-  .mentor .box-container .box {
-    text-align: left;
-    padding: 0rem;
-  }
-  
-  .mentor .box-container .box img {
-    height: 15 rem;
-    width: 15rem;
-   
-    margin-bottom: 1rem;
-  }
-  
-  .mentor .box-container .box h2{
-    font-size: 14px;
-   color: silver;
-  }
-  .mentor.box-container h3 {
-    color: #EC4067;
-  }
-  
-  .mentor.box-container .box p {
-    color: #10221b;
-    font-size: 14px;
-    text-align: left;
-  }
-  .mentor .heading .story {
-    text-align: left;
-    margin-bottom: 2.5rem;
-    font-size: 2rem;
-    background-color: silver;
-    letter-spacing: 2px;
-  }
-  .mentor .heading .highlight {
-    font-size: 2rem;
-  
-  }
-  .mentor .heading p{
-    font-size: 2rem;
-  
-  }
-  .mentor .heading .story {
-    text-align: left;
-    margin-bottom: 2.5rem;
-    font-size: 2rem;
-    background-color: silver;
-  }
-  .mentor .heading .highlight {
-    font-size: 2rem;
-  
-  }
-  .mentor .heading p{
-    font-size: 2rem;
-  
-  }
-  /*--- end of mentors--*/
-  .project .heading .story {
-    text-align: left;
-    margin-bottom: 2.5rem;
-    font-size: 2rem;
-    background-color: silver;
-  }
-  .project .heading .highlight {
-    font-size: 2rem;
-  
-  }
-  .project.heading p{
-    font-size: 2rem;
-  
-  }
 
 
 
